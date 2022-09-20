@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,300&display=swap');
+
+body {
+    margin: 0;
+    background-color: rgb(165,199,209);   
+    font-family: 'Poppins', sans-serif;
+    color: whitesmoke;
+}
+
+nav {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 3px 5px 10px #818080;
+}
+
+nav img{
+    height: 60px;
+    width: auto;
+}
+
+
+#titleDiv, #resultDiv{
+    text-align: center;
+    margin: 100px;
+    text-shadow: 1px 3px 3px #353535;
+}
+
+#resultDiv {
+    display:table;
+    background-color: rgb(0,54,162);
+    border-radius: 10px;
+    width: 70%;  
+    margin: auto;
+    box-shadow: 3px 5px 10px #818080, inset 0 0 15px rgb(18, 20, 41);
+}
+
+
+#formDiv {
+  display: flex;
+  justify-content: center;
+  margin: 100px auto;
+  
+}
+
+form {
+    width: 50%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 3px rgba(255, 255, 255, 0.3); 
+    border-radius: 8px;
+    backdrop-filter: blur(4px);
+    box-shadow: 3px 5px 10px #adb7bd;
+}
+
+input, label {
+    display: block;
+    margin: 10px auto 20px; 
+}
+
+input {
+    border-radius: 4px;
+}
+
+label {
+    margin-top: 40px;
+    color: #353535;
+}
+
+#button {
+    font-size: medium;
+    color: white;
+    height: 40px;
+    width: 80px;
+    background-color: rgb(217,13,57);
+    border-radius: 15px;
+    margin: 40px auto 20px; 
+    border: none;
+}
+
+.error-input-border {
+    border: 1px solid #FF0000;
+}
+
+hr {
+    margin: 0 60px;
+}
+
